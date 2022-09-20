@@ -11,10 +11,6 @@ project.properties
 *.sublime-workspace
 .sublimelinterrc
 
-# Grunt
-/node_modules/
-none
-
 # OS X metadata
 .DS_Store
 
@@ -38,9 +34,6 @@ tests/cli/vendor
 ## Composer
 ############
 composer.lock
-/vendor/
-
-/js/dist/
 
 /artifact/
 /artifact.zip
@@ -58,3 +51,5 @@ phpunit.xml
 # Temp files
 ############
 /.tmp
+
+*zip
