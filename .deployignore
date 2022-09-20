@@ -1,0 +1,60 @@
+# Editors
+project.xml
+project.properties
+/nbproject/private/
+.buildpath
+.project
+.settings*
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+.sublimelinterrc
+
+# Grunt
+/node_modules/
+none
+
+# OS X metadata
+.DS_Store
+
+# Windows junk
+Thumbs.db
+
+# Behat/CLI Tests
+tests/cli/installer
+tests/cli/composer.phar
+tests/cli/composer.lock
+tests/cli/composer.json
+tests/cli/vendor
+
+# Unit tests
+/tmp
+/tests/bin/tmp
+/tests/e2e-tests/config/local-*.json
+/tests/e2e-tests/config/local.json
+
+############
+## Composer
+############
+composer.lock
+/vendor/
+
+/js/dist/
+
+/artifact/
+/artifact.zip
+/.wordpress-svn
+
+############
+## Dev tool config overrides.
+############
+.phpcs.xml
+phpcs.xml
+.cache/phpcs.cache
+phpunit.xml
+.phpunit.result.cache
+############
+# Temp files
+############
+/.tmp
