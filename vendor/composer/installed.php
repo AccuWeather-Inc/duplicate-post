@@ -5,7 +5,7 @@
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'bca97458b59a543514a4e5c1b8a503cb46630475',
+        'reference' => '227231cb44c155589cc46af1a02b3453248e1812',
         'name' => 'yoast/duplicate-post',
         'dev' => true,
     ),
@@ -457,7 +457,7 @@
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'bca97458b59a543514a4e5c1b8a503cb46630475',
+            'reference' => '227231cb44c155589cc46af1a02b3453248e1812',
             'dev_requirement' => false,
         ),
         'yoast/phpunit-polyfills' => array(
