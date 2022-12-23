@@ -53,7 +53,7 @@ phpunit.xml
 /.tmp
 
 *zip
-/node_modules/
+node_modules/
 none
 /vendor/
 /js/dist/
