@@ -35,10 +35,6 @@ tests/cli/vendor
 ############
 composer.lock
 
-/artifact/
-/artifact.zip
-/.wordpress-svn
-
 ############
 ## Dev tool config overrides.
 ############
@@ -47,13 +43,6 @@ phpcs.xml
 .cache/phpcs.cache
 phpunit.xml
 .phpunit.result.cache
-############
-# Temp files
-############
-/.tmp
 
-*zip
-node_modules/
-none
-/vendor/
-/js/dist/
+*.zip
+artifact/
